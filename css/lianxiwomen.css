@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* 內减模式 */
+    box-sizing: border-box;
+}
+
+li,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(../images/bj2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    width: 1200px;
+    height: 68px;
+    margin: 0 auto;
+    /* background-color: rgb(209, 214, 210); */
+    background-color: white;
+}
+
+h1 {
+    float: left;
+}
+
+.nav {
+    float: left;
+    margin-left: 60px;
+    height: 50px;
+}
+
+.nav li {
+    float: left;
+    margin-left: 25px;
+    margin-right: 20px;
+}
+
+.nav li a {
+    display: block;
+    padding: 0 9px;
+    height: 68px;
+    line-height: 68px;
+    font-size: 22px;
+    font-family: 黑体;
+    color: #050505;
+}
+
+.nav li a:hover {
+    color: #69b96e;
+}
+
+.cent img {
+    width: 1200px;
+    height: 500px;
+    text-align: center;
+    margin: 1rem auto 0 auto;
+}
+
+.cent img {
+    max-width: 100%;
+    /* 图片最大宽度为父容器的宽度 */
+    max-height: 100%;
+    /* 高度自适应 */
+    display: block;
+    /* 将图片转换为块级元素 */
+}
+
+.banner {
+    width: 1200px;
+    height: 220px;
+    margin: 0 auto;
+    background-color: #0093fd;
+}
+
+.banner .left {
+    width: 500px;
+    height: 220px;
+    float: left;
+}
+
+.banner .left img {
+    margin-left: 100px;
+    margin-top: 10px;
+    max-width: 90%;
+    max-height: 90%;
+    display: block;
+}
+
+.banner .center {
+    width: 400px;
+    height: 220px;
+    float: left;
+}
+
+.banner .center p {
+    text-align: center;
+    line-height: 40px;
+}
+
+.banner .right {
+    width: 300px;
+    height: 220px;
+    float: right;
+}
+
+.banner .right h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.banner .right input {
+    margin-left: 5px;
+    line-height: 5px;
+}
+
+.banner .right textarea {
+    width: 210px;
+    height: 90px;
+}
+
+
+.footer {
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    margin: 0 auto;
+    background-color: #0093fd;
+}
